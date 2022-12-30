@@ -1,0 +1,10 @@
+// sbse phle toh apn dbms meh "Key" kya hoti hai and "key" ki jarurat nhi hoti/pdti hai, voh dekhenge...
+
+// visit this for all about the Concept of "keys":- https://www.analyticsvidhya.com/blog/2020/07/difference-between-sql-keys-primary-key-super-key-candidate-key-foreign-key/
+
+// "Key" define hoti hai har table(or mtlb relations or mtlb "entity") k liyeh, and yeh "Key" tables-ki-jo-columns hoti hai joki diff-diff attributes show krti hai jaise ki:- student-name , student-rollno, student-address , student-class etc..etc.. toh mtlb enhi attributes meh se kisi ek attribute ko table-ki-"Key" bana diya jata hai. and eska mtlb "Key" ka use kya hai, need kya hai voh yeh hai ki "key"-attribute se table meh apn sabhi tuples(mtlb table meh sbhi rows) ko uniquely-identify kr sake. jaise mostly har table meh ek id-attribute ki column hoti hai jisseh apn table meh har row ko unique rkhtehh hai.
+// jaise for.eg: student-table meh student-id ya student-admission-no. ya student-aadharno. etc.etc.. can be made as "Key" of the table. but jaise student-class , student-division etc..etc.. cannot be made as "Key" of the table(or mtlb "Key" of the identity). So toh mtlb table k jin-jin attributes ko apn as a "Key" bana sktehh hai unn sabhi attributes k set ko apn "Candidate-Key-set" boltehh hai.
+// and "Candidate-key-Set" meh se jo most-appropiate-Key hoti hai usko apn "Primary-Key" boltehh hai. and jo baki keys bach jati hai usko boltehh hai apn "alternative-Keys"
+// whereas yaha most-appropiate-key ka mtlb ki voh users ka voh attribute jo bhi null na hove. mtlb jaise student-adhar.no can be null mtlb esa bhi ho skta hai kisi user(mtlb yaha mtlb student) ka aadhar-card bana hi na ho. and jaise kisi student ka license-card bana hi na ho. toh mtlb ess way meh attribute ka most-appropiate hona. and jo attribute most-appropiate hoga usko hi apn "primary-Key" banatehh hai.
+
+// so toh "Key" ko apn as a "Key-Column" or mtlb "main-Column" bhi bolsktehh hai, and "key-column" meh sabhi data unique-data hoga, mtlb koi bhi data same-same nhi hoga.

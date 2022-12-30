@@ -1,0 +1,4 @@
+// Variable sized partioting meh apn haato-haat ram partiotining krtehh hai and then usmeh allocation krdetehh hai..
+// Thus toh mtlb ram meh aane wali process ko jitna space chahiyeh apn dynamically mtlb haato-haat jldi se uss process k liyeh ram meh utni size ka partition krdenge. Thus toh mtlb ess partiotining meh internal-fragmentation nhi hota
+// Mtlb runtime pe memory-partition and memory-allocation hota hai
+// "Compaction" mtlb ram meh khali-space or mtlb holes ko ek-taraf lejana and baki occupied-space ko ek taraf lejana, and esseh apn external-fragmentation ko remove/prevent ho sktehh hai, but this method is always feasible/reliable bcoz of heavy-time-consumer.

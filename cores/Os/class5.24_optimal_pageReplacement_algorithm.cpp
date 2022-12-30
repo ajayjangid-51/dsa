@@ -1,0 +1,1 @@
+// ess algorithm k according or ya mtlb ess algorithm meh apn ram-pageFrames meh avialable pages meh se jo page-requests's-refrence-string meh current-page-request se in rightside sbse last meh requested hai uss page ko phle nikaltehh hai or mtlb replace krtehh hai.

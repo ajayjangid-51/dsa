@@ -1,0 +1,2 @@
+// Network-protocols are the protocols to follow for making a "use" of the Network, mtlb network toh aab bicha huaa hai mtlb network ki sab cheeze set hai and aab apnko ess network se ya mtlb network pe communication krne k liyeh yeh mtlb "network ka use krne k liyeh" kuch protocols hoteh hai jaise:- Tcp/Ip , http ,smtp, udp ,ppp , pop,ftp,imap
+// Protocol mtlb  kaise krna hai, mtlb it is set-of-rules for doing that particular task

@@ -1,0 +1,19 @@
+// types of relationship or ya degree of relationship or ya cardinality-in-realtionship:-
+
+// yaha apn Entities k bich meh jo Relationships hoti hai unke Types dekhenge, or ess cheez ko apn simply types-of-relationship , degree-of-relationships or ya cadinality-of-relationship.
+// toh simply mtlb ki yaha apn entities k bich meh different kinds of relationships hoti hai unko dekhenge.
+// erModel meh "relation"  ko apn "rhombus" meh likhtehh hai ya mtlb reprsent krtehh hai.
+
+// so toh agr apn relationship-between-any-two-different-entities ko define kre toh then relationship mtlb ki unn two-entities k bich kya rista hai ya mtlb kya baat hai jiski vajah se voh entities hamesa kabhi-kabhi aapas meh baat krne lg jati hai for doing some work. jaise:- apna aur apni didi ka ek rista hai jiski vajah se hi hum itni baat krtehh hai, itne miltehh hai, ek-dusre ka kaam krtehh hai etc..etc mtlb directly bolehh toh hum ek-dusre pe dependent hai, mtlb usmeh koi changement aayega toh voh mere meh bhi dikhega. thus toh kisi bhi 2-entities k bich meh relationship hone ka ya khne ka mtlb hai ki voh dono entities k dusre se connected hai mtlb dependent hai, toh mtlb ek entity meh koi bhi changement hota hai voh apne relation wali entity meh bhi change kr skta hai, so toh mtlb apnko ess change ka dhyn rkhna hai ki yeh change ko apn simultaneoulsy/synchronously kaise kre and yeh "changes" sahi/easily se krne k liyeh apn phle entities k bich meh realtions find kr letehh hai and then unko foreign-key se connected kr detehh hai, takki phir insertion/deletion/updation operation krne meh koi kisi cheez ki dikkat/violation na ho.
+
+// Types of relationship:- (mtlb voh jo 2-entities k bich meh jo "relation" hai na voh enn 4-types meh se koi ek type ka hoga.)
+// 1.one-to-one (so one-to-one ka mtlb ki entity-no.1 meh koi ek element entity-no.2 k sirf kisi ek element se hi connected hai, jaise for.eg:- ki we have two entities: student and department , so toh student-and-department meh one-to-one relationship hone ka mtlb ki student-table meh ek-student-element department-table meh ek-hii-deparment-element se connected hai or mtlb related hai, mtlb jaise ki student_name_ajay deparemnt_element_cse se connected hai toh mtlb one-to-one realtionship hai. and agr student_name_ajay department_elemtnt_cse and department_element_physics dono se connected hai then enn student and department entities k bich meh one-to-many relation hai.) , and so toh mtlb notepoint yeh hai ki "relation" k type k basis pe hi phir insertion/deletion/updation operations hotehh hai.
+// veryImp-notepoint:- mtlb jab bhi ER_model ko relational-model meh convert krtehh hai or mtlb code-implementation krtehh hai tab yeh entity and relations individually ek Table meh hi convert hotehh hai.
+// so toh mtlb in above example meh , relationship-table batati hai ki konsa student_element konse department meh kaam krta hai. toh mtlb yeh hai need of relationship and relationship-table.
+// now relationship-table meh 2-main-attributes toh honge-hi-honge and that are primary-key-attribute of entity.no1 and primary-key-attribute of entity.no2 and phir additionally aur bhi attributes ho sktehh hai jinko apn "relation-descriptive-attribute". and jo yeh 2main-attributes hotehh hai na yeh actually as foreign-key ki tarah hoti hai, aur mtlb foreign-key hi hoti hai. and one more imp-baat ki one-to-one relationship-table meh jo main 2main-attributes hotehh hai unki value columns meh kabhi repeat nhi hogi.
+
+// in one-to-one relationship meh apn kisi ek entity and relation-table ko merge bhi kr sktehh hai.
+
+// 2.one-to-many
+// 3.many-to-one
+// 4.many-to-many

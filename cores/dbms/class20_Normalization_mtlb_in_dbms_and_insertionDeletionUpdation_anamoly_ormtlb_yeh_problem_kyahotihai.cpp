@@ -1,0 +1,12 @@
+//"normalization" ek technique hai, ek method hai , ek tarika hai of removing or reducing "data-Redundancy(mtlb data ki duplication or any type of voilation etc..etc.. that can cause problem in database while doing insertion/deletion/updation-operations on operations.)" , or "irregular or rough-manner of creating-database or created-database" from the database table or tables.
+// and toh mtlb yeh "normalization" very needy and important cheez hai in dbms or mtlb sahi se bolehh toh in every "database".
+
+// so toh apnko simply "normalization" jo-jo steps bole krne ko voh apn krenge, takki apn apne "database" ko "Redundancy"-free bana sake.
+// table meh "redundancy" ya mtlb "duplicacy" 2-types ki hoti hai, one is row-level-duplicacy(rows meh repetation hona, mtlb ek hi row ka table multiple times hona ) and column-level-duplicacy(mtlb columns meh repetation hona, mtlb some part of row can be duplicate multiple times).
+// to remove "row-level"-duplicacy we use the concept-of-primaryKey.
+// but "column-level-duplicacy" is important.
+
+// now table meh "redundancy" ya "duplicacy" ki vajah se bohat sari problems hoti hai jaise sbse phli toh ki there is a lot of memory-space-consumption , the search will be high and insertion/deletion/updation problems jo yeh 3 additional and important  problems hai (ya anamoly hai mtlb unexpected-problems which occurs at some special-occuations or ya mtlb jiske bareh meh apnne socha hi nhi tha) aa skti hai:-
+// 1.insertion-anamoly or mtlb updation-problem (jaise given pic2-example meh agr university meh ek naya course introduce huaa ho, ya new faculty aai ho , then unko toh apn ess table meh insert krhi nhi sktehh and but insert krna toh jaruri bcoz this is our databse apn apni sari information esi meh hi store krtehh hai, but apn toh nhi krpa rhe bcoz of such kind of table-taken and table-redundancy, so toh mtlb this "insertion-anamoly" , so toh eska toh yehi solution hai ki phle toh "table" sahi se banavo, mtlb ER-model k according har different entities k liyeh different table banavoh and phir unko foreign-Key and relationship-table se connect krdo.   )
+// 2.deletion-anamoly (jaise mtlb ek student-ki-info krne se uske one-and-one university k course information hi udd gyi. toh mtlb this is a problem bcoz now aab agr apn table ko dekhe toh as per table java-naam ka toh university meh koi course hai hi nhi., but actually voh course toh hai.)
+// 3.updation-anamoly (jaise changing-salary of one faculty will lead to that ki we have to change the faculty of all duplicated-entries in the table).

@@ -1,0 +1,1 @@
+// har Process ki Page-table meh uss Process k sare pages ki sari/almost and additional informations hoti hai,which is needed for cpu(for logical to physical addresing of page) and also for os(operatingsystem) jaise like ki uss page ki caching krni hai ya nhi, uss page ki kyakya permissions hai etc..etc..

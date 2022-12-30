@@ -1,0 +1,10 @@
+// "data-independance" ek protocol ki tarah hai ki "database" meh apnko yeh "data-independance"-protocol follow krna hi krna hai, as q ki ess protocol ko follow krne k bohat sare fayedee hai ki jaise data k logical-representation ya physical-storing meh koi bhi changement hota hai toh user ko eska pata hi nhi chalta/chalega etc..etc... thus toh mtlb isiliy "data-independance" jaruri hai for every "database".
+// data-independance ka mtlb data-abstraction mtlb data-ki-care krna from the user or ya mtlb data-storing-concepts(jaise database meh data ka logical-data-representation kaisa hai and jaise database meh data ka physical-representation kaisa etc..etc.. yeh sab cheeze user ko nhi dikhani hoti hai.) ko user se dur rkhna, as bcoz user ko esseh koi lena-dena nhi hai.
+
+// data-independance 2-steps meh hoti hai:-
+// 1. logical-data-independance mtlb ki jaise user kuch bhi more-tables add kr rha hai, aur ya mtlb kuch bhi database meh modification kr rhe hai , then user ko apne-interface(mtlb user-view-level) meh usko koi farak nhi dikhega ki database k logical-representation meh kya modification etc.. huaa hai.
+// so toh allover "logical-data-independance" ka mtlb hai ki user data k logical-representation se ekdam independent hai.
+// 2.physical-data-independance ka mtlb user and "physical-level" dono database k data k physica-representation se ekdam independent hai.
+// thus toh mtlb yehi reasons hai ki apn data-representation-independance ko use krtehh hai, mtlb takki user ko according sbhi cheeze constant si rhe, mtlb user ko pta hi nhi lgta ki database-representation meh roz changement hoteh hi rheteehh hai, but mtlb user ko toh hamesa voh cheeze same hi lagegi mtlb user k respect meh koi toh esa lagega koi effect/change nhi huaa hai, sab vesa hi hai.
+
+// thus toh allover mtlb ki har "database" ki khasiyat honi chahiyehh ki voh database "data-independance" ko use kr rhe hi ho, otherwise toh phir toh bohat sari inconsistency create ho skti hai for the user and or logical-representation k liyeh.

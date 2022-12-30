@@ -1,0 +1,1 @@
+/* class42_RelationalAlgebra_mtlb_tables_ka_algebra_krna_mtlb_tables_pe_algebric_operations_krna_whereas_tables_pe_algebric_operations_krna_mtlb_jaise_tables_meh_projection_krna_tables_meh_se_selection_krna_tables_ka_crossProduct_krna_tables_ka_union_krna , tables ko join krna  etc ..etc.. yeh sab krne ko apn in general mtlb ek naam se ek word se "algebra" krna boltehh hai./*/

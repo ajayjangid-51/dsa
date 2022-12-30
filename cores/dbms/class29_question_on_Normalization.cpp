@@ -1,0 +1,2 @@
+// mtlb agr koi kabhi composite-attribute se bni ho then apn directly nhi bolsktehh ki voh CandidateKey hai ,mtlb voh syd superKey bhi ho skti hai if agr uss composite-attributtes meh koi single-attribute as a candidateKey hota hai toh, toh mtlb apnko kisi composite-attributtes ko CandidateKey khne se phle uss composite k attributes ko individually check krlena chahiyeh..
+// Nonprime prime ko find kr rha ho toh mtlb koi dikkat nhi hai mtlb esa ho skta hai..

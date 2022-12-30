@@ -1,0 +1,1 @@
+// As YAHA pe apn "Directed-graph" ko represent krna dekhenge, as jis tarah apn represent krteh hai phir same usi way meh apn usko memory meh  implement bhi krtehh hai.

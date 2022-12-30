@@ -1,0 +1,7 @@
+// framework mtlb ek language hi hota hai mtlb ek combo-language with some-additional-abstraction-level-features or functions. jinki madad se apn framework-specific kaam easily kr pateh hai. jaise react-framework se apn frontend- kafi acche se ,straigt-forwardly and professinally bana skteh hai.
+
+// as Game-engine mtlb Game-framework , jiska use krke apn Games ko easily , straight-forwadly and professionally tarike se bana skteh hai.
+
+// as toh unreal-Engine ek Game-engine hi hai , mtlb ek Game-framework hi hai.
+
+// cross-platform game engine mtlb voh game-engine jisseh apn cross-platform games bana skteh hai mtlb user diff -platform se diff-players se against bhi khel skteh hai as like cod , pubg games.

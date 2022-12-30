@@ -1,0 +1,6 @@
+//🔥💲🍕  🍕💲🔥
+// AS YAHA pe apn Internal-node(mltb non-leaf-nodes) and External-node(mtlb leaf-nodes) k bich meh relation dekhenge ki mtlb no.of-leaf-nodes and no.-of-non-leaf-nodes  ek dusre pe kaise depend krteh hai.. mtlb depend krteh hai ya nhi, and agr krteh hai toh voh kya relation hai between as voh apn dekhenge...
+
+// // 🍧 relation between leaf-nodes and non-leaf-nodes...
+// The simply formula or mtlb relation is :-
+// .. deg(0) = deg(2)+1

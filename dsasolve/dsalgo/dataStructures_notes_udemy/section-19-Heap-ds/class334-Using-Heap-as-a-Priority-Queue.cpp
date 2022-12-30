@@ -1,0 +1,3 @@
+//🔥💲🍕 Heap as priority-Queue  🍕💲🔥
+// As apn ne "deletion" meh ek baat note ki thii ki heap meh always root-element mtlb maximum-valued-element(or mtlb incase of Min-Heap minimum-valued-element ) hi delete hota hai..
+// and toh "priority-queues" voh queues hoti hai jismeh insertion and deletion elements ki "priority"  k basis pe hota hai jaise mtlb hightest-priority is given to maximum-valued-element or minimum-valued-element or any other criteria of giving priority to the element. And as "priority-Queues" meh yeh hota hai ki jo deletion hota hai voh sbse highest priority-wale element ka sbse phle hota hai, And inserion pe koi priority nhi hoti.

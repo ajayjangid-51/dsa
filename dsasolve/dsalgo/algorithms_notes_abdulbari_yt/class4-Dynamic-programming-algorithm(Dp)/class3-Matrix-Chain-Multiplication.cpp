@@ -1,0 +1,1 @@
+//🔥💲🍕 NOw YAHA pe apn "Matrix-Chain-Multiplication"-Problem dekhenge and then esko Solve krna bhi dekhenge.. mtlb esko solve krne ka "algorithm" dekhenge.. mtlb apn khud hi eske k liyeh "algorithm" banayenge... 🍕💲🔥

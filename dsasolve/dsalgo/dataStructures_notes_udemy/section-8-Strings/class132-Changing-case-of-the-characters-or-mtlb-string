@@ -1,0 +1,95 @@
+//🔥💲🍕 Changing-the-case of the characters mtlb upper-case to lower-case and lower-case to upper-case 🍕💲🔥
+
+#include <bits/stdc++.h>
+using namespace std;
+#define ps(x) printf("\n%s", x);
+#define pi(x) printf("\n%d", x);
+#define si(x) scanf("%d", &x);
+#define ss(x) scanf("%s", &x);
+
+void toLowerCase(char *str)
+{
+
+    //🔔🔔 int a = 'a';
+    // cout << a << endl;
+    // as toh jab yeh 'a'-character int-"a" meh store hoga tab yeh 'a' integer(mtlb apne ascii-code)-meh-convert hoke hi store hoga. and jab apn esko print kretehh hai then vaha pe yeh datatype matter krta hai mtlb datatype-k-according printing hoti hai mtlb agr int-datatype hai then toh ascii-code print hoga and agr datatype "char" hai toh phir voh stored-ascii-code character meh convert hoke print hota hai, thus toh char-datatype mention krne ka bas yahi actuall "need" hai mtlb printing k liyeh display k liyeh.  or storing toh simply ascii-code meh hi hoti hai  mtlb chahiyeh 'A' likhdo or chahahyeh 65 likho in int-datatype or char-datatype voh ascii-code meh store hoga. and mtlb apnko esseh koi error nhi milega. 🔔🔔
+    int i = 0;
+    while (str[i] != '\0')
+    {
+        // int chr = str[i];
+        // if (chr >= 65 && chr <= 90)
+        if (str[i] >= 65 && str[i] <= 90)
+        //📔📔Note-point:- as char a = "A" likhdo ya phri char a = 65 likhdo .. dono ek hi baat hai. as yeh 'A' toh bas readibility k liyeh likha jata hai. and actual meh 'A' toh  65  meh convert hoke hi store hota hai. and apn jab char-keyword ka use krtehh hai yeh tabhi hota hai.
+        {
+            str[i] += 32;
+        }
+        i++;
+    }
+};
+
+void toUpperCase(char *str)
+{
+    int i = 0;
+    while (str[i] != '\0')
+    {
+        if (str[i] >= 97 && str[i] <= 122)
+        {
+            str[i] -= 32;
+        }
+        i++;
+    }
+}
+
+void toToggleStr(char *str)
+{
+    int i = 0;
+    while (str[i] != '\0')
+    {
+        if (str[i] >= 65 && str[i] <= 90)
+        {
+            str[i] += 32;
+        }
+        else if (str[i] >= 97 && str[i] <= 122)
+        {
+            str[i] -= 32;
+        }
+        i++;
+    }
+}
+
+void DisplayStr(char *str)
+{
+    int i = 0;
+    while (str[i] != '\0')
+    {
+        cout << str[i++];
+    }
+    cout << endl;
+}
+int main()
+{
+    // char *str = "WELCOME";
+
+    //💲🍕1. toLowerCAse:- 🍕💲
+    char str[] = "WELCOME";
+    DisplayStr(str);
+    toLowerCase(str);
+
+    DisplayStr(str);
+    //🔔🔔 as apn prinf se directly puri string print kr skethh has like this:- 🔔🔔
+    printf("%s", str);
+
+    //💲🍕 2.toUpperCase:- 🍕💲
+    char str3[] = "welcome";
+    toUpperCase(str);
+    ps(str);
+
+    //💲🍕3. Toggling-the-string:- 🍕💲
+    char str2[] = "WelCOMe";
+    toToggleStr(str2);
+    // printf("\n%s", str2);
+    ps(str2);
+    // free(str);
+
+    return 0;
+}

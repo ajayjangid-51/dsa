@@ -1,0 +1,5 @@
+// AS toh YAHA pe apn "greedy-technique" or mtlb "greedy-approach" or mtlb "greedy-startergy" k dekhenge. mtlb ess approach k bareh meh dekhenge ki yeh approach kya hoti hai , kaise hoti hai , kab-kab hoti hai and q hoti hai.etc.etc.. eske bareh meh apn sab kuch dekhenge..
+
+// As toh "Greedy"-approach yeh bolti hai mtlb apn greedy-approach meh yeh krteh hai.. ki problem ko stages meh break krteh hai and har stage meh dekhteh hai ki yeh stage meh yeh cheez feasible hai ya nhi hai agr if  hai then apn uss stage ki cheez ko aage shift kr deteh and then baad all feasible-stages-result ko apn optimal-cheez k liyeh check krenge ... And after simply apnko optimal-solution mil jayega.....
+
+// As example like this:- ki suppose we have to buy a car which best then. As Mtlb yaha best(maximize) or worst(minimise) ki baat hai then mtlb yeh optimization-problem hai, so toh mtlb greedy-approach follow krenge..

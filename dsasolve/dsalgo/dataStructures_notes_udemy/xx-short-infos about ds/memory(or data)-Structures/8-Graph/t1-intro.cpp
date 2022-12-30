@@ -1,0 +1,2 @@
+// 🔥Graph 🔥
+// As apn matrix - reprenstation or list - repreaentation se apn apna Graph - bana skteh hai..and voh graph toh kaisa bhi ho skta hai na.As graph mtlb pencil se paper meh banaee gayi cheez ko graph bolteh hai.

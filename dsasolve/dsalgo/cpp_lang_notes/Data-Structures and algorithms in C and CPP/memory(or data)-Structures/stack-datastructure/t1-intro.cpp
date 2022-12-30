@@ -1,0 +1,4 @@
+//
+// stack and queue memory-structures ko apn array and linked-list memory-strucutes se hi implement krteh hai mtlb apn array or linked-list pe 2 or more kuch alag se properties-add kr deteh hai thua takki phir voh as stack or as a queue ki tarah behave krne lag jateh hai. as stack k liyeh apn array or linked-list pe unke last-node k liyeh function create krteh hai jismeh apn apn data add krteh hai and uss function meh ek esa function bhi hota hai jo add krteh time phle uss last meh stored-data ko por(mtlb delete) karega and then phir usmeh newly-data store karega.
+
+// and queue-implementation meh other-end(starting-node ) meh-stored-element delete hota hai and last-end meh data store hota hai.

@@ -1,0 +1,4 @@
+//🔥💲 As now apn Merge-Sorting dekhenge.. 💲🔥
+// jaise ki apn janteh hai ki Merge-Sorting hai toh mtlb esmeh "Merging" hi hoti hogi, and haan Merge-Sort meh merging hi hoti hai, and as "Merge-Sorting" and "Merging" meh itna hi farak hai ki Merging meh toh apnko simply 2 or more sorted-lists phle se hi de rkhi hoti and apnko simply unko "Merge" krna hota hai. but "Merge-Sort" apn tab krteh hai jab apnko simply ek unsorted-list diya hota hai, and uss unsorted-list ko apnko sort krna by the "Merge-Sort"-technique toh mtlb ki "Merge-sort" meh apnko "Merging" ki tarah different lists nhi di hoti hai. thus toh phir apn uss given single-unsorted-list ko kaise Sort krenge by the concept-of-Merging , as yahi cheez apn "Merge-Sort" meh dekhenge and uske according hi apni "Merge-Sorting" ho jayegi.
+
+// so the time-complexity of merge-sort is O(nlogn).

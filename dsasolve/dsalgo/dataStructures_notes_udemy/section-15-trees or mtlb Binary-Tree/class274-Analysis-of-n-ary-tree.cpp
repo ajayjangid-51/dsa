@@ -1,0 +1,12 @@
+//🔥💲 NOW YAHA pe apn "Strict-n-ary-tree" k kuch analysis krenge.. and voh analysis yeh hai: 1st-analysis ki "n-ary-tree" meh height-vs-nodes ka analsis krenge ki mtlb yeh height-vs-nodes "n-ary-tree" meh kaise hota hai mtlb "n-ary-tree" k liyeh enke mtlb height and nodes k bich meh kya relation hai. and 2nd-anaylis ki "n-ary-tree" meh internal-nodes-vs-external-nodes ka analysis mtlb enke bich meh bhi kya relation for "n-ary-tree" 💲🔥
+
+//1💲 Thus toh phle apn "height-vs-nodes" dekhenge for "Strict-n-ary-tree" 💲
+//  🚫 if height-of-tree is given: then minimum-nodes(n) = mh+1 🚫
+//
+//
+
+//2💲 As Now apn "internal-nodes-vs-external-nodes" dekhenge for "Strict-n-ary-tree" 💲
+// e = (m-1)i + 1   where here "m" is "n" in "n-ary-tree"
+
+//🔔🔔 As toh jo bhi apn ne Analysis kiya hai voh apnko aage jab apn ess "tree" pe operations krenge then unn operations ki time and space dependencies apn enn chote-mote kiyeh huee analysis-result se easily voh time and space complexities calculate kr sakenge... as q ki vaha pe apnko andaja ho jayega ki aachha yeh operation ess tree pe itne baar chalega for this condition.. toh apnko vaha basically pata chal jayega ki best-case meh yeh operation itne baar chalega and worst-case meh itne baar chalega if the operation is depended on height-of-tree or no.-of-nodes-of-tree mtlb jo operation hai voh kitni "baar(mtlb kitne times)" execute ho raha hai. thus toh voh no.-of-times-of-execution "tree" ki kis cheez pe depend krta hai, yeh wali baat bohat important hai, as toh voh cheez tree ki "height" ho skti hai, tree k "nodes" ho sktehh hai.. etc..etc kuch bhi ho sktehh hai jaise tree k "internal-nodes" or tree k "external-nodes" etc..etc... or kuch bhi ho skta hai. toh mtlb apnko enn cheezo ki calculation honi chahiyeh mtlb apnko pata hona chahiyeh yeh cheeze tree meh kitni hoti hai, as toh mtlb yeh jitni yeh hoti hai utni baar voh operation chalega. 🔔🔔
+//👿📔imp-Note-point:- As importantly ek baat yeh hai ki time-complexity and space-complexity operation meh no-of-statements pe depend nhi krti balki no.-of-time-of-execution-of-that-opearation pe depend krti hai, mtlb voh operation kitni baar ho raha hai ya mtlb kitni baar hoga uspe depend krti hai yeh time and space-complexities.

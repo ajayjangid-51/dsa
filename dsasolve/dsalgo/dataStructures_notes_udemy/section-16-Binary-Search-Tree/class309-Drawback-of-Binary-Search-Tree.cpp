@@ -1,0 +1,10 @@
+//🔥💲🍕 NOW YAHA pe apn "Binary-Search-Trees" ka ek Drawback dekhenge.. 🍕💲🔥
+
+// Binary-Search-tree ki height ko apn control nhi kr sktehh, mtlb apne insertion k basis pe apna BST ki height banti hai, mtlb same-set-of-values ko apn thode alg order meh insert krtehh hai toh vaha height-of-BST different hojayegi, thus toh mtlb baat yeh hai ki same-set-of-values k liyeh bhi many heights possible hai , and apn toh jantehh hai ki apne most-of- tree-operation's-time depend on height-of-tree , thua toh apni hamesa yeh kosis rheti hai ki apne BST ki height minimum hi rhe ,takki apne operations efficient rhe, q ki vahi set-of-values and same-no.-of-values k liyeh apn jada height ka BST khamakha q create kre.. but yeh. Create ho jata hai, mtlb apne inserting-order ki vajah yeh kisi bhi height ka tree create ho jata hai.. Now thus toh eske 2-solutions hai:-
+// ✋1st:- ki apn voh insertion-order pata krle jisseh apna BST minimum height ka create hoga.(but esa ho nhi skta q ki user k pass ek-saat thodi na sari values hogi thua toh mtlb yeh koi solution nhi hai.)
+// ✋2nd-solution is AVL-tree(or mtlb "height-balanced-Binary-Search-tree")
+
+// Thus toh allover apn AVL-tree ka concept isliy la rhe hai taki apne tree ki height minimumly maintained and as agr apne tree ki height minimum rhegi toh mtlb apne sare operations very-efficient(mtlb logarithmic-time O(logn)-time meh hojayenge) ho jayengee.. thus toh mtlb apn yeh sab kaam isiliy kr rhe hai ki apne sare operations efficient bn jayehh...
+
+// So AVL-trees are self-height-balanced-binary-search-trees
+// Thus toh now apne according apn esseh bol sktehh hai ki "AVL" is only Binary-Search-Tree hi hai, but yaha Insertion and Deletion rotations krke hoteh hai, takki height khamakha increase ho hove. and bakki kuch apn aage aab "AVL-section" meh dekhtehh hai.

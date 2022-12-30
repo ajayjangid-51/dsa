@@ -1,0 +1,4 @@
+// YAHA pe Command-line-Arguments(or Command-line-Inputs) k bareh meh dekhenge:
+// where yaha pe Command-line-Arguments/Inputs ka mtlb hai ki ki Command-line-meh kisi function meh input dena. mtlb jab program start kr rhe hai uss time Function-Input pass krna. as yeh kaam apn tab krteh hai jab apnko yeh clear nhi hota hai
+
+// jaise as like amazon.in pe agr user login krta hai toh login-account- khulega . and agr voh login nhi krta hai toh phir guest-account- khulega. thus mtlb yaha user agr amazon.in ko run krne k saat login-details bhi input kr rha hai toh phir voh function execute hoga , and agr voh nhi kr rha hai toh phir voh function run nhi hoga , and mtlb other function run hoga.

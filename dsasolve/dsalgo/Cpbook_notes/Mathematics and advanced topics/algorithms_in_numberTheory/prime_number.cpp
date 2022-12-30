@@ -1,0 +1,3 @@
+// 1.prime_number simply voh hai jiska koi factor nhi hota hai,(mtlb "1" and voh khud toh hota hi hai ).
+// 2.sbhi integers(>1 mtlb which are greater than 1) ka ek unique prime-factorization hota hai.
+// 3.apn kisi bhi number k no.of-factors , sum-of-its-factors and product-of-its-factors ko find kr sktehh hai by simply mainly knowing its prime-factorization and then phir toh respective simple formulas hai.

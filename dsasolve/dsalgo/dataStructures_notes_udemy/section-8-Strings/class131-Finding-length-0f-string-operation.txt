@@ -1,0 +1,28 @@
+//🔥💲🍕 as now apn "String-ki-length" find-out krna dekhenge... 🍕💲🔥
+// as length-of-string mtlb number-of-characters in the "String"
+#include <bits/stdc++.h>
+using namespace std;
+
+int Length(char str[])
+{
+    // int length = 0, i = 0;
+    int i = 0;
+    while (str[i] != '\0')
+    {
+        // length++;
+        i++;
+    }
+    return i;
+}
+int main()
+{
+    char str[] = {'s', 'w', 'e', 'l', 'c', 'o', 'm', 'e', '\0'};
+    // or
+    char str2[] = "welcome";
+    // or
+    char *str3 = "welcome"; // as yeh string "Heap" meh hi create hogi, as yaha pe apnne koi "new"-keyword bhi use nhi kiya , as tabbhi yeh "heap-memory" meh hi create hogi. toh yeh wali baat note-krne wali hai.. as toh apn eska dhyn rkhna hai.
+
+    cout << Length(str3) << endl;
+
+    return 0;
+}

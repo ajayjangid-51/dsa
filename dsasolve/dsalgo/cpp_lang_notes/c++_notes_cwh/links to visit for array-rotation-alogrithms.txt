@@ -1,0 +1,6 @@
+1.https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements/0
+2.https://practice.geeksforgeeks.org/problems/reversal-algorithm5340/1#
+3.https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/
+4.https://www.geeksforgeeks.org/c-program-cyclically-rotate-array-one/
+5.https://www.geeksforgeeks.org/block-swap-algorithm-for-array-rotation/
+6.https://www.geeksforgeeks.org/array-data-structure/#rotation

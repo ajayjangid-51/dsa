@@ -1,0 +1,2 @@
+// YAHA pe apn Function-Pointer k bareh meh dekhenge:
+// Function-Pointer or Pointer-Function simply voh pointers hoteh hai jo kisi "Function" ka address store krteh hai. and thus Function-Pointer ka main use Callback-Function banane k liyeh hota hai. where callback-function mtlb voh function jo kisi function k andar as a input jata ho and phir voh function kabhi call ho skta hai mtlb kiya ja skta hai.

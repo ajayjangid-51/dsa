@@ -1,0 +1,1 @@
+//🔔🔔 Aabse now always use the competitive-programming-technique in practices also... mtlb jo apn competitive programming meh macros and typedef define krtehh hai for effcient , fast and easy-readiable code k liyeh , toh mtlb yeh kaam apnko apni practice meh bhi essi hi krna hai. 🔔🔔

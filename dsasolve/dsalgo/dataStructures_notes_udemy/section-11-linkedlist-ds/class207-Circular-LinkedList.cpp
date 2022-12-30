@@ -1,0 +1,17 @@
+//🔥💲🍕 Introduction to "Circular-LinkedList" 🍕💲🔥
+//🔥💲🍕 as Now aab apn "Circular-LinkedList" k bareh dekhenge, and mtlb thoda aacche se mtlb detail meh dekhenge about the "Circular-LinkedList" jaise "Circular-LinkedList" ko display kaise kare as mtlb q ki apn voh Linear-LinearList wali apporach lagatehh hai , then toh apna function hamesa chlta hi rhega  thus mtlb apn Importantly yehi dekhenge ki Circular-linkedList ko Traverse kaise krtehh hai, as q ki agr apn "Traversing" krna aagaya then mtlb most of the kaams-on-CircularLinkedlist easily and straight-forward kr sktehh hai.🍕💲🔥
+
+//🌟🌟🌟  As toh "Circular-LinkedList" voh LinkedList hoti hai jiska Last-node "first-Node" ko point kr raha hota hai. and Note-point ki "Circular-LinkedList" is a "Looped-LinkedList" only. thus toh mtlb jaise "Looped-linked-List" ko Traverse kiya thaa toh same vase hi "Circular-LinkedList" ko traverse krlenge..  🌟🌟🌟
+
+// as Or jaise "Circular-LinkedList" ko apn aseh bhi define kr sktehh hai ki "A collection of Nodes which are linked Circularly" mtlb voh Nodes ek Circular-line meh connected hai, thus toh mtlb phir yaha koi "first-node" or koi "last-node" define nhi hota.. thus toh mtlb apn esseh ess defination k according "Circular-linkedList" ko dekhe then yeh "first-node" and "last-node" na hone wali baat bhi sahi beithi hai, thus toh "circular-LinkedList" meh apn kisi bhi ek "Node" ko as a "head-Node" maan letehh hai, and esseh apnko ko pata hai ki circular-linkedlist meh "first" and "last" node toh hotehh hi hai, as q ki "ciruclar-linkedlist" "linear-LinkedList" se hi bnti hai. thus toh apn hamesa "first-Node" ko hi as a "Head-Node" consider krtehh hai.
+
+//🔔🔔 Application-of-circular-LinkedList:- 🔔🔔
+// as jaise apn apne iphone-meh jab koi data-time set krtehh hai tab , jaise apnn from 1-to-31 scroll krteh hai and then phir again aur scorll krtehh hai then voh vapis 1, 2, 3... aajata hai , thus toh mtlb voh cheez "Circular-LinkedList" se hi implemented hai, mtlb graphics k piche "Circular-LInkedList" hi hai.
+
+// Now kuch Important baateh:- jaise:-
+// 1. if there is only one-Node in linkedlist then how it can be circular , as it can as like this, first->next = first, mtlb uss Node ka next-pointer should point on itself-that Node only.
+
+//🔔🔔 as ek baat khdi hoti hai ki agr 2-Null Pointers hai, then voh "Linear-LinkedList" hogi ya phir "Circular-LinkedList" hogi, thus as mtlb voh toh kuch bhi ho skti hai mtlb it can be linear or it can be "circular" also, but baat toh yeh hai ki "Circular-LInkedList" toh Null hoo hi nhi sktii, as mtlb ki agr cicular-linkedList empty hai toh bhi circular- hi honi chahiyehh na, mtlb asehe thodi hai ki linkedList-empty hai toh voh syd "linear" bhi ho skti hai and or "circular" ho skti hai. thus toh aage toh apn confuse hojayenge ki agr apnko koi empty "LinkedList" milti hai toh apn decide nhi krpayenge ki yeh "linear" hai ya phir "circular" hai thus toh eske liyeh apn "Circular-LinkedList" k liyeh ek orr dusri form meh "represent krtehh hai." 🔔🔔
+//🖼️🖼️🖼️  see pic-1-part2 :- for 2nd-Representation-Form of Circular-LinkedList 🖼️🖼️🖼️
+
+//🌟🌟🌟  as toh overall  apn yeh bolenge ki apn koi bhi Representation ko follow kr sktehh hai, as it all depend on us ki apn uss agrument( jiska esseh genuily koi mtlb nhi hai. ) k according chlna chahtehh hai or nhi chlna chahtehh hai. and esseh Actually boleh toh most of the books and sabhi jagah 1st-Form hi hamesa follow ki jati hai. 🌟🌟🌟

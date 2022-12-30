@@ -1,0 +1,35 @@
+Diff -between Programming-language and scripting-language:
+
+As
+ Programming-language ka code compiler k duvra
+ high-level-language se machine-level-instructions meh covert
+ kiya jata hai.. 
+And scripting-language ka code intrepeter se
+ high-level-language-instructions se
+ machine-level-instructions meh covert kiya jata hai..
+
+As mtlb 
+compiler toh pure-code ko ek baar meh analaze krke ek saat meh
+ hi machine-level-instructions meh convert kr deta hai.
+ But intrepeter ek-ek statement ko analyize and saat meh 
+machine-leve-instructions meh convert krta hai..
+
+As toh esseh 
+compiler jada time consume krta hai and intrepeter kaam time 
+consume krta hai for converting into 
+machine-level-instructions meh. 
+
+As but compiled kiya gaya 
+program fast run hota hai and intrepeted kiya gaya program 
+thoda slow run hota hai..
+
+Jaise
+ Javascript , python scripting-language hai and
+ jaise C , C++ Programming-languauge hai.
+
+
+Note-point: as scripting-language bhi Programming-language hi
+hai..
+
+As scripting-language websites , web-apps k liyeh bohat
+ sahi hai for loading and reload fns...

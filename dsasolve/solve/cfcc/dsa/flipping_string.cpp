@@ -52,22 +52,47 @@ void file()
     freopen("output.txt", "w", stdout);
 #endif
 }
-void solve(int tt)
+void solve()
 {
-    if (0)
+    string s("00001010101011100100001010010110000110101110110101");
+    int n = s.size();
+    int midzeros = 0;
+    int maxi = 1;
+    int leftones = 0;
+    int rightones = 0;
+    for (int i = 0; i < s.size(); i++)
     {
-        print("hi");
+        if (s[i] == '0')
+        {
+            midzeros++;
+        }
+        else
+        {
+            while (i < n and s[i] == '1')
+            {
+                rightones++;
+                i++;
+            }
+            i--;
+            maxi = max(maxi, leftones + midzeros + rightones);
+            deb(i);
+            deb(maxi);
+            leftones = rightones;
+            rightones = 0;
+            midzeros = 0;
+        }
     }
+    debline(maxi);
 }
 int main()
 {
     io_faster
     file();
     int t = 1;
-    cin >> t;
+    //	cin >> t;
     while (t--)
     {
-        solve(t);
+        solve();
     }
     return 0;
 }
